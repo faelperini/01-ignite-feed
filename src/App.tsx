@@ -1,9 +1,8 @@
 import { Post, PostType } from './components/Post';
 import { Header } from './components/Header';
 import { Sidebar } from './components/Sidebar';
-
 import styles from './App.module.css';
-
+import foto from './assets/foto-luiz.png';
 import './global.css';
 
 // author: { avatar_url: "", name: "", role: "" }
@@ -29,9 +28,9 @@ const posts: PostType[] = [
    {
       id: 2,
       author: {
-         avatarUrl: 'https://media.discordapp.net/attachments/824090543230418965/1136786920001777825/IMG_1256.png?width=557&height=662',
+         avatarUrl: foto,
          name: 'Luiz Perini',
-         role: 'Banana Eater',
+         role: 'Fullstack Developer',
       },
       content: [
          { type: 'paragraph', content: 'Fala galeraa 👋' },

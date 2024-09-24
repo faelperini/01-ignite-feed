@@ -3,7 +3,6 @@ import ptBR from 'date-fns/locale/pt-BR';
 import { Avatar } from './Avatar';
 import { Comment } from './Comment';
 import { ChangeEvent, FormEvent, InvalidEvent, useState } from 'react';
-
 import styles from './Post.module.css';
 
 // Formatação de Hora alternativa
@@ -39,7 +38,7 @@ interface PostProps {
 
 export function Post({post}: PostProps) {
    const [comments, setComments] = useState([
-      'Me caguei kkkkk',
+      'Top demais! 🚀',
    ])
    const [newCommentText, setNewCommentText] = useState('')
 

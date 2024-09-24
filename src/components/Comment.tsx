@@ -2,7 +2,7 @@ import { ThumbsUp, Trash } from 'phosphor-react';
 import { Avatar } from './Avatar';
 import { useState } from 'react';
 import styles from './Comment.module.css';
-import gorila from '../assets/foto-gorila.png';
+import foto from '../assets/foto-luiz.png';
 
 interface CommentProps {
    content: string;
@@ -25,7 +25,7 @@ export function Comment({ content, onDeleteComment }: CommentProps) {
    return (
       <div className={styles.comment}>
 
-         <Avatar hasBorder={false} src={gorila} />
+         <Avatar hasBorder={false} src={foto} />
 
          <div className={styles.commentBox}>
             <div className={styles.commentContent}>
